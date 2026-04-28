@@ -25,7 +25,7 @@ funA(n)'''
 
 #without using % check wether no is even or odd using recursion
 
-'''def is_even(n):
+def is_even(n):
     if n==0:
         return True
     return is_odd(n-1)
@@ -37,12 +37,12 @@ n=int(input("enter a number :"))
 if is_even(n):
     print("even")
 else:
-    print("odd")'''
+    print("odd")
 
 #nested recursion
-def fun(n):
+'''def fun(n):
     if n>10:
         return n-1
     return fun(fun(n+2))
 n=int(input("enter a number"))
-print(fun(n))
+print(fun(n))'''

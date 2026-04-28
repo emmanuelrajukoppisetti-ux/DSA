@@ -23,6 +23,40 @@ for i in range(len(arr)):
     if arr[i]==0:
         arr[zero],arr[i]=arr[i],arr[zero]
         zero+=1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
 print("after moving zeros ",arr)'''
 
 

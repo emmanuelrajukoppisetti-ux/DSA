@@ -1,5 +1,5 @@
 num=int (input("enter a number"))
-temp=num
+temp =num
 s=0
 
 while temp!=0:

@@ -1,5 +1,5 @@
 '''encrypt a word using ceaser cipher'''
-'''word=input("enter a word :")
+word=input("enter a word :")
 key=int(input("enter a key :"))
 result=""
 for ch in word:
@@ -10,5 +10,5 @@ for ch in word:
         else:
             new=chr(ord(ch)+key)
             result+=new
-print(result)'''
+print(result)
 

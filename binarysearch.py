@@ -12,6 +12,15 @@ while left<=right:
     elif target<arr[mid]:
         right=mid-1
     else:
-        left=mid+1
+         left=mid+1
 if not found:
-    print("Elements not found!!!!")
+    print("Elements not found!!!!") 
+
+
+
+
+
+
+
+
+    
