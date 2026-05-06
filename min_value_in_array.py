@@ -5,4 +5,4 @@ min_value=arr[0]
 for i in arr:
     if i<min_value:
         min_value=i
-print(min_value)
+print(min_value) 

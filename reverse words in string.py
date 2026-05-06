@@ -1,4 +1,4 @@
-"""program to reverse the words in a striing"""
+"""program to reverse the words in a string"""
 '''words=input("enter words").split()
 for word in words:
     print(word[::-1],end=" ")'''

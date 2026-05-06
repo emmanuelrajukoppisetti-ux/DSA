@@ -37,4 +37,4 @@ print("sum:",summate)'''
 x=int(input("enter a number"))
 y=int(input("enter a number"))
 result=expo(x,y)
-print("result",result)'''
+print("result",r  esult)'''

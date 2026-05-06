@@ -20,7 +20,7 @@ print(stack[-1])
 print(len(stack))
 print(len(stack)==0)
 '''
-'''stack=[]
+stack=[]
 size=2
 if len(stack)<size:
     stack.append(10)
@@ -30,8 +30,7 @@ if len(stack)<size:
     stack.append(16)
 else:
     print("stack overflow")
-print(stack)'''
-
+print(stack)
 '''
 def three():
     print("this is inside function-3")

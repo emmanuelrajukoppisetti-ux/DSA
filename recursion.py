@@ -10,7 +10,7 @@ n=int(input("enter a number :"))
 nums(n)'''
 
 #Indirect Recursion
-'''def funA(n):
+def funA(n):
     if n<=0:
         return
     print("A",n)
@@ -21,7 +21,7 @@ def funB(n):
     print("B",n)
     funA(n-1)
 n=int(input("enter a number"))
-funA(n)'''
+funA(n)
 
 #without using % check wether no is even or odd using recursion
 

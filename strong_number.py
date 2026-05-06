@@ -12,5 +12,5 @@ while temp>0:
         temp//=10
 if sum==num:
     print("strong number")
-else:
+else:   
     print("not")

@@ -1,12 +1,26 @@
-#infix to postfix conversion
-'''s=input("Enter infix expression :")
-stack=[]
-result=""
-priority={'+':1,'-':1,'*':2,'/':2}
+#infix to postfix conversion.
+'''
+s = input("Enter the expression: ")
+stack = []
+result = ""
+priority = {'+':1, '-':1, '*':2, '/':2}
 for ch in s:
     if ch.isalnum():
-        result+=ch
-    elif ch=='(':
+        result += ch
+    elif ch == '(':
+        stack.append(ch)
+    elif ch == ')':
+        while stack and stack[-1] != '(':
+            result += stack.pop()
+        stack.pop()  
+    else:  
+        while (stack and stack[-1] != '(' and 
+               priority[ch] <= priority[stack[-1]]):
+            result += stack.pop()
+        stack.append(ch)
+while stack:
+    result += stack.pop()
+print("Postfix:", result)
 
 '''
 

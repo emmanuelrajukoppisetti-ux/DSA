@@ -1,0 +1,23 @@
+#operations in deque
+from collections import deque
+dq=deque()
+n= int(input("Enter the size of queue :"))
+for i in range(n):
+    val=int(input("Enter value:"))
+    dq.append(val)
+print("deque after input :",dq)
+x=int(input("Enter value to insert at left :"))
+dq.appendleft(x)
+print("Deque after append left:",dq)
+r=int(input("Enter values to insert at right :"))
+dq.append(r)
+print("Deque after append right:",dq)
+dq.popleft()
+print("Deque after delete left",dq)
+dq.pop()
+print("deque after delete right",dq)
+dq.reverse()
+print("Reverse:",dq)
+k=int(input("Enter k value to rotated :"))
+dq.rotate()
+print("Deque after rotation ",dq)
